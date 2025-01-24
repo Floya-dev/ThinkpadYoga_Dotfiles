@@ -7,7 +7,6 @@ Laptop used: Thinkpad X1 Yoga Gen. 3
 Distro: Arch Linux
 Kernel: Linux Zen Kernel
 Shell: Zsh (+ Oh My Zsh)
-WM: Hyprland (Wayland)
 Terminal: Kitty
 
 Style in mind: MacOS like/Modern
@@ -31,3 +30,10 @@ Idk if I can make touchscreen work, will take a look at it later.
 Wallpaper not rotating when rotating screen/Sizing weirdly. // Working on fixing it
 Stylus sometimes bugging out / Creating weird lines / Thinks he is a mouse
 Workspace swipe sometimes loosing touch.
+
+# Apps to use
+Notes / Xounral++ / https://aur.archlinux.org/packages/xournal-git
+Customization / nwg-look / https://archlinux.org/packages/extra/x86_64/nwg-look/
+Files / Nemo / https://archlinux.org/packages/extra/x86_64/nemo/
+On-Screen Keyboard / onboard / https://archlinux.org/packages/extra/x86_64/onboard/
+Launcher / Wofi / https://archlinux.org/packages/extra/x86_64/wofi/
