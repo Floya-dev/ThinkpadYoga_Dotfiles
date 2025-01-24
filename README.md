@@ -33,7 +33,11 @@ Workspace swipe sometimes loosing touch.
 
 # Apps to use
 Notes / Xounral++ / https://aur.archlinux.org/packages/xournal-git
+
 Customization / nwg-look / https://archlinux.org/packages/extra/x86_64/nwg-look/
+
 Files / Nemo / https://archlinux.org/packages/extra/x86_64/nemo/
+
 On-Screen Keyboard / onboard / https://archlinux.org/packages/extra/x86_64/onboard/
+
 Launcher / Wofi / https://archlinux.org/packages/extra/x86_64/wofi/
