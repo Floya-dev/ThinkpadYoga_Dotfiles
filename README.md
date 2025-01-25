@@ -3,10 +3,15 @@ Creating this repo to help people when installing Arch Linux on their Thinkpad Y
 ![alt text](https://github.com/Floya-dev/ThinkpadYoga_Dotfiles/blob/main/picture1.png)
 
 # ThinkpadYoga_Dotfiles
+
 Laptop used: Thinkpad X1 Yoga Gen. 3
+
 Distro: Arch Linux
+
 Kernel: Linux Zen Kernel
+
 Shell: Zsh (+ Oh My Zsh)
+
 Terminal: Kitty
 
 Style in mind: MacOS like/Modern
