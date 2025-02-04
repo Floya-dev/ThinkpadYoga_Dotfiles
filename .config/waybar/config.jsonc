@@ -1,0 +1,151 @@
+{
+    // General Waybar configuration
+    "layer": "top",
+    "height": 5,
+    "margin": 0,
+    "spacing": 6,
+    "border-size": 0,
+    "padding": 8,
+    "reload_style_on_change": true,
+    "gtk-layer-shell": true,
+    // Modules configuration
+    "modules-left": [
+        "custom/launcher",
+        "hyprland/window",
+        "custom/texttwo",
+        "custom/textthree",
+        "custom/textfour",
+        "custom/textfive"
+    ],
+    "modules-center":["hyprland/workspaces"],
+    "modules-right": [
+	"tray",
+	"hyprland/language",
+	"image#ethernetart",
+	"battery",
+	"custom/date",
+        "clock"
+    ],
+    // Module-specific configurations
+    "clock": {
+        "format": "{:%H:%M}",
+	"on-click": "kitty tty-clock -s -b -S -c -C 7"
+    },
+    "custom/date": {
+        // put you user here
+        "exec": "/home/ondrasek/.config/waybar/scripts/date/custom_date.sh",
+        "interval": 60,
+        "tooltip": false,
+	"on-click": "/home/ondrasek/.config/waybar/scripts/date/calendar.sh"
+    },
+    "tray": {
+	"spacing": 10
+    },
+    "hyprland/window": {
+        "format": "{class}",
+        "max-length": 20,
+        "rewrite": {
+            // if any window is focused display Finder
+            "^(?!.*\\S).*": "Finder"
+        }
+    },
+    "custom/launcher": {
+        "format": "󰣇",
+	"on-click": "rofi -show drun"
+    },
+      "battery": {
+    "format": "{capacity} % {icon} ",
+    "interval": 5,
+    "format-alt": "{icon}   {time}",
+    "format-icons": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+      "hyprland/workspaces": {
+    "format": "{icon}",
+    "separate-outputs": false,
+    "active-only": true,
+    // turn on true to show same all workspaces on each monitor
+    "all-outputs": false,
+    "format-icons": {
+      // 1-10
+      "1": "I",
+      "2": "II",
+      "3": "III",
+      "4": "IV",
+      "5": "V",
+      "6": "VI",
+      "7": "VII",
+      "8": "IIX",
+      "9": "IX",
+      "10": "X",
+      // 11-10
+      "11": "I",
+      "12": "II",
+      "13": "III",
+      "14": "IV",
+      "15": "V",
+      "16": "VI",
+      "17": "VII",
+      "18": "IIX",
+      "19": "IX",
+      "110": "X"
+    }
+  },
+    "custom/texttwo": {
+        "exec": "echo 'File'",
+        "interval": 60,
+        "return-type": "plain",
+        "on-click": "nemo" //or you favorite Filer Explorer
+    },
+    "custom/textthree": {
+        "exec": "echo 'Keyboard'",
+        "interval": 60,
+        "return-type": "plain",
+        "on-click": "bash /home/ondrasek/.config/waybar/scripts/keyboard/onscreen.sh" // or you favorite Image editor
+    },
+    "clock": {
+        "format": "{:%H:%M %p}"
+    },
+    "custom/textfour": {
+        "format": "View",
+        "on-click": "/home/ondrasek/.config/waybar/scripts/View/menu.sh"
+    },
+        "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-bluetooth": "  {volume}%",
+        "format-bluetooth-muted": " ",
+        "format-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "󰋎",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+    "custom/textfive": {
+        "exec": "echo 'Help'",
+        "interval": 60,
+        "return-type": "plain",
+        "on-click": "yad --title='Help' --text-info --width=600 --height=400 --filename=<(man hyprland | col -bx)"
+    },
+    "image#ethernetart": {
+        // put you username here
+        "path": "/home/ondrasek/.config/waybar/icons/wifi-white.png",
+        "size": 13,
+        "interval": 60
+    },
+    "hyprland/language": {
+	"format": "{}",
+	"format-cs": "CZ",
+	"format-en": "EN"
+    }
+}
