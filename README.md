@@ -1,6 +1,6 @@
 Creating this repo to help people when installing Arch Linux on their Thinkpad Yogas
 
-![alt text](https://github.com/Floya-dev/ThinkpadYoga_Dotfiles/blob/main/picture1.png)
+![alt text](https://github.com/Floya-dev/ThinkpadYoga_Dotfiles/blob/main/Screenshot_2025-03-26-14-46-23.png)
 
 # ThinkpadYoga_Dotfiles
 
