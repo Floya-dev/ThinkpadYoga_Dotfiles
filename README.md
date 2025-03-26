@@ -17,19 +17,21 @@ Terminal: Kitty
 Style in mind: MacOS like/Modern
 
 # What I managed to get working
+
 Stylus/Pen - Worked from start
+
 Screen Rotation - Installed Hyprland Plugin + Changed hyprland.conf a bit
-Workspace Swipe - Installed Hyprland Plugin
-On-Screen Keyboard - Installed
-Web-cam - Worked from start
+
+Workspace Swipe (via touchpad or screen) - Installed Hyprland Plugin
+
+Touch screen - Hyprland Plugin + Changed conf a bit
 
 # Stuff Iam working on
 Proper Zsh prompt
 Widgets for topbar
 Hyprland customization
+On-screen keyboard
 Pop-ups // Dunst
-
-Idk if I can make touchscreen work, will take a look at it later.
 
 # Issues
 Wallpaper not rotating when rotating screen/Sizing weirdly. // Working on fixing it
@@ -42,7 +44,5 @@ Notes / Xounral++ / https://aur.archlinux.org/packages/xournal-git
 Customization / nwg-look / https://archlinux.org/packages/extra/x86_64/nwg-look/
 
 Files / Nemo / https://archlinux.org/packages/extra/x86_64/nemo/
-
-On-Screen Keyboard / onboard / https://archlinux.org/packages/extra/x86_64/onboard/
 
 Launcher / Wofi / https://archlinux.org/packages/extra/x86_64/wofi/
